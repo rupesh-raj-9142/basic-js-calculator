@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>String manipualtion and template literals</title>
+</head>
+<body>
+
+<script>
+let s = prompt("Enter a sentence:");
+let c = s.split(" ").length;
+
+let w = prompt("Word to change:  ");
+let n = prompt("New word:   ");
+let r = s.replaceAll(w,n);
+
+let f = prompt("Find word:");
+let ch = s.includes(f);
+
+document.write("sentence is "+s+"<br>");
+document.write("words are "+c+"<br>");
+document.write("new line"+r+"<br>");
+document.write("word found "+ch);
+</script>
+
+</body>
+</html>
